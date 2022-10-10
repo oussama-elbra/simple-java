@@ -1,12 +1,8 @@
 package fr.simple;
 
-public class SimpleJava {
-	/**
-	 * 
-	 * Afficher à l'écran 
-	 */
+public class Calculator {
 	
-	public static void main(String[] args) {
-		System.out.println("Simple");
+	public int add(int a, int b) {
+		return a+b+1;
 	}
 }
